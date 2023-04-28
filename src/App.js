@@ -1,15 +1,17 @@
 import React from 'react'
-import {MyAbout,MyImage,MyData} from './func-mydata'
+/*import {MyAbout,MyImage,MyData} from './func-mydata'
 import {Navber,Header,Footer} from './fumc-components'
 import Calendar from './class-components'
 import MsgBox from './func-props'
+import MsgBox2 from './class-props'*/
+import List from './list-comp'
 
 
 function App() {
-
-  return [<Navber/>,<Calendar />,<Header />,<Footer/>]
+  return [<List/>]
+ // return [<Navber/>,<Calendar />,<Header />,<Footer/>]
 /*return(
-  <MsgBox 
+  <MsgBox2
   text="Useing props in function component"
   colr="red"
   bgColor="#ccc"
@@ -17,7 +19,9 @@ function App() {
   border="dotted 1px black"
   />
 )*/
+
 }
 
 export default App;
+
 
